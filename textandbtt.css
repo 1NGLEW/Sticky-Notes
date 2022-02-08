@@ -1,0 +1,24 @@
+body{
+    background-image: url(unknown.png);
+    background-size: cover;
+}
+#hi{
+    position: absolute;
+    left: 39.5%;
+    font-size: 2rem;
+    font-family: 'Segoe UI';
+}
+
+#k{
+    position: absolute;
+    left: 37.5%;
+    top: 25%;
+}
+
+#down{
+    position: absolute;
+    left: 39%;
+    top: 45%;
+    width: 23.7%;
+    height: 15%;
+}
