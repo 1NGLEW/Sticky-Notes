@@ -1,24 +1,31 @@
-body{
-    background-image: url(unknown.png);
-    background-size: cover;
+body {
+    background-color: #394F1A;
+    background-image: url("backdrop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left;
 }
-#hi{
-    position: absolute;
-    left: 39.5%;
-    font-size: 2rem;
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Segoe UI';
+    font-size: 36pt;
 }
 
-#k{
-    position: absolute;
-    left: 37.5%;
-    top: 25%;
+.windowcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#down{
+.dwnldbtn {
+    display: flex;
     position: absolute;
-    left: 39.5vw;
-    top: 41vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1cm;
     width: 300px;
     height: 155px;
 }
